@@ -1,0 +1,34 @@
+project (randomminer) {
+	exename = ./randomminer
+	install = .
+	//List of all source files
+	includes += /opt/local/include/boost 
+	libpaths +=  /opt/local/lib/  
+	libpaths +=  -lboost_system-mt
+	libpaths +=  -lboost_thread-mt
+	Source_Files {
+	 dfs.cpp
+	 graph.cpp
+	 canonicalcode.cpp
+	 StringTokenizer.cpp
+	 codeset.cpp
+	 random.cpp
+	 randomMining.cpp
+	 randomMiner.cpp
+	}
+
+        //List of all template files
+
+	Template_Files {
+          
+	}
+
+	//List of all Header files
+	Header_Files {
+	 dfs.h
+	 graph.h
+	 codeset.h
+	 StringTokenizer.h
+	 random.h
+	}
+}
