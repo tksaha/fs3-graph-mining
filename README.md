@@ -20,7 +20,7 @@ subgraphs of a given size.
 
 # Installation
 
-Run the following command in randommining folder:
+Run the following command in randommining/codes folder:
 
 ```
 make
