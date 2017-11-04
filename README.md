@@ -31,3 +31,19 @@ A Sample Run:
 ```
 ./randomminer -d mutagen_2.interactive (data set)  -i 100 (number of iteration)  -s 6 (subgraph size) -q  100000 (queue size)
 ```
+
+# Reference
+If you are using the code for research purposes, please cite the following paper:
+
+```
+@article{saha.hasan:15,
+  title={FS3: A sampling based method for top-k frequent subgraph mining},
+  author={Saha, Tanay Kumar and Al Hasan, Mohammad},
+  journal={Statistical Analysis and Data Mining: The ASA Data Science Journal},
+  volume={8},
+  number={4},
+  pages={245--261},
+  year={2015},
+  publisher={Wiley Online Library}
+}
+```
