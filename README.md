@@ -33,7 +33,7 @@ A Sample Run:
 ```
 
 # Reference
-If you are using the code for research purposes, please cite the following paper:
+If you are using the code for research purposes, please consider citing the following paper:
 
 ```
 @article{saha.hasan:15,
