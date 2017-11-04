@@ -16,3 +16,18 @@ a manner that the top-k positions in the queue contain the most frequent
 subgraphs.  Our experiments on database of large graphs show that FS^3 is
 efficient, and it obtains subgraphs that are the most frequent amongst the
 subgraphs of a given size.
+
+
+# Installation
+
+Run the following command in randommining folder:
+
+```
+make
+```
+
+A Sample Run: 
+
+```
+./randomminer -d mutagen_2.interactive (data set)  -i 100 (number of iteration)  -s 6 (subgraph size) -q  100000 (queue size)
+```
