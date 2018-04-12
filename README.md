@@ -20,6 +20,17 @@ subgraphs of a given size.
 
 # Installation
 
+I use mpc makefile creator to generate makefile. Please read the article in the [link](http://snaewe.github.io/MPC/docs/html/MakeProjectCreator.html) to learn more.
+
+If you have added new files, please change the mpc file accordingly and then run the following
+command to generate new makefile.
+
+```
+chmod +x mwc.pl
+./mwc.pl -type make codes/randomminer.mwc
+```
+
+
 Run the following command in randommining/codes folder:
 
 ```
